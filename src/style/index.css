@@ -1,0 +1,28 @@
+:root {
+  @apply .light;
+}
+
+@import "tailwindcss/base";
+
+body {
+  @apply antialiased bg-primary;
+}
+
+h1 {
+  @apply font-bold text-primary text-xl;
+}
+
+p {
+  @apply text-secondary;
+}
+
+a {
+  @apply text-secondary font-semibold;
+}
+
+a:hover {
+  @apply text-accent;
+}
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
