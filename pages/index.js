@@ -19,10 +19,11 @@ export default function Home() {
           <div className="dark:text-white text-black lg:text-6xl md:text-4xl sm:text-xl transition ease-out duration-500">
           <Typewriter
             options={{
-              strings: ['Hi I\'m Lucas.', 'I\'m a software developer.', 'Currently I am an app developer @ PetCode.', 'I like to make music, play video games, and learn about things.', 'Check out my relevant links below.'],
+              strings: ['hi i\'m lucas.', 'i\'m a software developer.', 'currently i am an app developer @ PetCode.', 'i like to make music, play video games, and learn new things.', 'check out my relevant links below.', 'i\'d love to connect, and am open to new opportunities.'],
               autoStart: true,
               loop: true,
-              deleteSpeed: 75,
+              deleteSpeed: 85,
+          
             }}
           />
           </div>
