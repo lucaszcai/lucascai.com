@@ -2,18 +2,18 @@ import Head from 'next/head'
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import DarkToggle from '../src/components/darkToggle';
+import { CustomCursor } from '../src/components/CustomCursor/CustomCursor';
 
 export default function Home() {
   return (
-  
-      <div className="flex flex-col items-between justify-center min-h-screen py-4 dark:bg-gray-800 bg-white transition ease-out duration-500">
+   <div className="page-wrapper">
+     <CustomCursor/>
+     <div className="flex flex-col items-between justify-center min-h-screen py-4 dark:bg-gray-800 bg-white transition ease-out duration-500">
       <Head>
         <title>Lucas Cai</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
      
-      
-      
       <main className="flex flex-col items-center justify-center w-full h-full flex-1 px-20 text-center md:font-thin sm:font-normal">
 
           <div className="dark:text-white text-black lg:text-6xl md:text-4xl sm:text-xl transition ease-out duration-500">
@@ -50,6 +50,6 @@ export default function Home() {
       </main>
 
     </div>
-   
+   </div>
   )
 }

@@ -6,6 +6,11 @@
 
 body {
   @apply antialiased bg-primary;
+  cursor: none;
+}
+
+.page-wrapper {
+  cursor: none;
 }
 
 h1 {
