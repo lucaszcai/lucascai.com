@@ -29,5 +29,9 @@ a:hover {
   @apply text-accent;
 }
 
+app-cursor {
+  @apply border-red-800;
+}
+
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
